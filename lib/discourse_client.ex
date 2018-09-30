@@ -4,8 +4,6 @@ defmodule DiscourseClient do
   """
   use Tesla
 
-  # alias DiscourseClient.Authentication
-
   plug Tesla.Middleware.BaseUrl, "https://elixirforum.com"
   plug Tesla.Middleware.JSON
 
