@@ -1,6 +1,15 @@
 # DiscourseClient
 
-**TODO: Add description**
+Usage:
+
+```elixir
+iex> {:ok, post} = DiscourseClient.fetch_post(16897)
+{:ok, 
+  %{
+    ...
+  }
+}
+```
 
 ## Installation
 
